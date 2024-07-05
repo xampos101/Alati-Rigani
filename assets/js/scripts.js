@@ -80,26 +80,28 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('dish12-desc').innerText = 'στραγγιστό γιαούρτι, σκόρδο, ελαιόλαδο, ξύδι, αγγούρι, πιπέρι';
 
         //thalassinaO
-        document.getElementById('dish16-desc').innerText = 'λάδι αστακού, μαγιονέζα, καρότο, μαϊντανός, σέλινο, δυόσμο, ελαιόλαδο';
+        document.getElementById('dish16-desc').innerText = 'αστακόλαδο, μαγιονέζα, καρότο, μαϊντανός, σέλινο, δυόσμος, ελαιόλαδο';
         document.getElementById('dish17-desc').innerText = 'λευκό κρασί, σκόρδο, μαϊντανός, ελαιόλαδο';
-        document.getElementById('dish18-desc').innerText = 'με φέτα, σάλτσα ντομάτας, σκόρδο, μαϊντανός, ελαιόλαδο και ούζο';
-        document.getElementById('dish20-desc').innerText = 'με φέτα, σάλτσα ντομάτας, σκόρδο, μαϊντανός, ελαιόλαδο και ούζο';
+        document.getElementById('dish18-desc').innerText = 'με φέτα, σάλτσα ντομάτας, σκόρδο, μαϊντανό, ελαιόλαδο και ούζο';
+        document.getElementById('dish20-desc').innerText = 'με τυρί φέτα, σάλτσα ντομάτας, σκόρδο, μαϊντανό, ελαιόλαδο και ούζο';
         //Salates
-        document.getElementById('dish22-desc').innerText = 'μεσκλάν, φρέσκο κρεμμύδι, ντοματίνι, πράσινο μήλο, αποξηραμένο σύκο, άνηθος, dressing εσπεριδοειδών, προσούτο';
-        document.getElementById('dish23-desc').innerText = 'ντομάτα, αγγούρι, πιπεριά, κρεμμύδι, παξιμάδι, ελιά, κρίταμος, κάπαρη, φέτα, ελαιόλαδο, ρίγανη';
-        document.getElementById('dish24-desc').innerText = 'iceberg, ντοματίνια, κοτόπουλο, καλαμπόκι, παρμεζάνα, κρουτόν, sauce Καίσαρα';
-        document.getElementById('dish25-desc').innerText = 'γαρίδες, μεσκλάν, φρέσκο κρεμμύδι, αβοκάντο, μάνγκο, dressing γιαουρτιού';
+        document.getElementById('dish22-desc').innerText = 'mesclun, φρέσκο κρεμμύδι, ντομάτα, πράσινο μήλο, αποξηραμένο σύκο, άνηθος, σάλτσα εσπεριδοειδών, προσούτο';
+        document.getElementById('dish23-desc').innerText = 'ντομάτα, αγγούρι, πιπεριά, κρεμμύδι, καρύδι, ελιά, ελιά, κρίταμο, κάπαρη, φέτα, ελαιόλαδο, ρίγανη';
+        document.getElementById('dish24-desc').innerText = 'iceberg, ντοματίνια, κοτόπουλο, καλαμπόκι, παρμεζάνα, κρουτόν, σάλτσα Caesar';
+        document.getElementById('dish25-desc').innerText = 'γαρίδες, mesclun, πράσινο κρεμμύδι, αβοκάντο, μάνγκο, σάλτσα γιαουρτιού';
         document.getElementById('dish26-desc').innerText = 'ντομάτα, αγγούρι, κρεμμύδι, πιπεριά, ρίγανη, ελαιόλαδο';
 
 
         //Kreatika
-        document.getElementById('dish29-desc').innerText = 'Γύρος Χοιρινός, Πίτα, Κρεμμύδι, Ντομάτα, Τζατζίκι';
-        document.getElementById('dish28-desc').innerText = 'Πανσετομπριζόλα χοιρινή με αρωματικό βούτυρο και άνθος αλατιού ';
-        document.getElementById('dish30-desc').innerText = 'Χοιρινό σουβλάκι με πίτα Λήμνου, ταμπουλέ και sauce βότκα ';
-        document.getElementById('dish31-desc').innerText = 'Κοτόπουλο σουβλάκι με πίτα Λήμνου, ταμπουλέ και sauce βότκα ';
-        document.getElementById('dish32-desc').innerText = 'Μοσχαρίσια σπαλομπριζόλα με αρωματικό βούτυρο και άνθος αλατιού ';
-        document.getElementById('dish33-desc').innerText = 'μοσχαρίσιο μπιφτέκι 100%, τσένταρ, μπέικον, ντομάτα, iceberg, sauce βότκα, τηγανητές πατάτες, καραμελωμένα κρεμμύδια, πάστα τρούφας';
-
+        document.getElementById('dish29-desc').innerText = 'Χοιρινός γύρος, πίτα, κρεμμύδι, ντομάτα, τζατζίκι';
+        document.getElementById('dish49-desc').innerText = 'Χοιρινή μπριζόλα με αρωματικό βούτυρο και ανθό αλατιού ';
+        document.getElementById('dish30-desc').innerText = 'Μοσχαρίσιο μπιφτέκι με ταμπουλέ';
+        document.getElementById('dish31-desc').innerText = 'Σουβλάκι χοιρινό με πίτα Λήμνου, ταμπουλέ και σάλτσα βότκας ';
+        document.getElementById('dish32-desc').innerText = 'Σουβλάκι κοτόπουλο με πίτα Λήμνου, ταμπουλέ και σάλτσα βότκας ';
+        document.getElementById('dish33-desc').innerText = 'Μοσχαρίσια μπριζόλα με αρωματικό βούτυρο και ανθό αλατιού ';
+        document.getElementById('dish34-desc').innerText = 'Μπιφτέκι 100% μοσχαρίσιο, τσένταρ, μπέικον, ντομάτα, iceberg, σάλτσα βότκα, πατάτες τηγανιτές, καραμελωμένα κρεμμύδια, πάστα τρούφας';
+        document.getElementById('dish35-desc').innerText = 'Σουτζουκάκια με πίτα Λήμνου και ταμπουλέ';
+       
 
         document.getElementById('dish41-desc').innerText = 'φέτα, θυμάρι, λιαστή ντομάτα, ελιά, ελαιόλαδο';
 
@@ -207,10 +209,8 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('dish32-desc').innerText = 'Chicken skewer with Lemnos pie, tabbouleh and vodka sauce ';
         document.getElementById('dish33-desc').innerText = 'Beef steak with aromatic butter and salt flower ';
         document.getElementById('dish34-desc').innerText = '100% beef burger, cheddar, bacon, tomato, iceberg, vodka sauce, fries, caramelized onions, truffle paste';
-        document.getElementById('dish35-desc').innerText = ' Souzoukakia with Limnos pie and tabbouleh ';
+        document.getElementById('dish35-desc').innerText = 'Souzoukakia with Limnos pie and tabbouleh ';
        
-        document.getElementById('dish37-desc').innerText = 'feta cheese, thyme, sun-dried tomato, olive, olive oil';
-
 
         document.getElementById('dish41-desc').innerText = 'feta, thyme, sun-dried tomato, olive, olive oil';
 
@@ -306,28 +306,29 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('dish17-desc').innerText = "бяло вино, чесън, магданоз, зехтин";
         document.getElementById('dish18-desc').innerText = "със сирене фета, доматен сос, чесън, магданоз, зехтин и узо";
         document.getElementById('dish20-desc').innerText = "със сирене фета, доматен сос, чесън, магданоз, зехтин и узо";
-        //Salates
-        document.getElementById('dish22-desc').innerText = 'месклун, пролетен лук, домати, зелена ябълка, сушена смокиня, копър, цитрусов дресинг, прошуто';
+        //Салати
+        document.getElementById('dish22-desc').innerText = "месклун, пролетен лук, домати, зелена ябълка, сушена смокиня, копър, цитрусов дресинг, прошуто";
         document.getElementById('dish23-desc').innerText = "домат, краставица, чушка, лук, орех, маслина, маслина, лилия, каперси, фета, зехтин, риган";
         document.getElementById('dish24-desc').innerText = 'айсберг, чери домати, пиле, царевица, пармезан, крутони, сос Цезар';
         document.getElementById('dish25-desc').innerText = "скариди, месклун, зелен лук, авокадо, манго, дресинг от кисело мляко";
         document.getElementById('dish26-desc').innerText = "домати, краставици, лук, пипер, риган, зехтин";
 
-        document.getElementById('dish37-desc').innerText = 'сирене “фета”, мащерка, сушени домати, маслини, зехтин';
-        
+
         //Kreatika
-        document.getElementById('dish29-desc').innerText = 'Свинско печено, питка, лук, домат, цацики';
-        document.getElementById('dish28-desc').innerText = 'Свинска пържола с ароматно масло и солен цвят ';
-        document.getElementById('dish30-desc').innerText = 'Свинско шишче с пай от Лемнос, табуле и сос от водка';
-        document.getElementById('dish31-desc').innerText = "Пилешко шишче с питка от Лемнос, табуле и сос от водка";
-        document.getElementById('dish32-desc').innerText = "Говежда пържола с ароматно масло и солен цвят ";
-        document.getElementById('dish33-desc').innerText = '100% говежди бургер, чедър, бекон, домат, айсберг, сос водка, пържени картофи, карамелизиран лук, паста от трюфели';
+        document.getElementById('dish29-desc').innerText = "Свински гирос, пита, лук, домат, цацики";
+        document.getElementById('dish49-desc').innerText = 'Свинска пържола с ароматно масло и солено цвете ';
+        document.getElementById('dish30-desc').innerText = "Бургер от говеждо месо с табуле"; 
+        document.getElementById('dish31-desc').innerText = "Свинско шишче с питка от Лемнос, табуле и сос от водка";
+        document.getElementById('dish32-desc').innerText = "Пилешко шишче с пай от Лемнос, табуле и сос от водка";
+        document.getElementById('dish33-desc').innerText = "Говежда пържола с ароматно масло и солено цвете";
+        document.getElementById('dish34-desc').innerText = '100% говежди бургер, чедър, бекон, домат, айсберг, сос водка, пържени картофи, карамелизиран лук, паста от трюфели';
+        document.getElementById('dish35-desc').innerText = "Souzoukakia с питка Limnos и табуле";
+       
+
+        document.getElementById('dish41-desc').innerText = "фета, мащерка, сушени домати, зехтин, зехтин";
 
 
-        document.getElementById('dish41-desc').innerText = "фета, мащерка, сушени домати, маслини, зехтин";
-
-
-        document.getElementById('dish45-desc').innerText = "сметана, лимон, копър, чесън, зехтин";
+        document.getElementById('dish45-desc').innerText = "млечна сметана, лимон, копър, чесън, зехтин";   
         document.getElementById('dish46-desc').innerText = "скариди, доматен сос, чесън, узо, зехтин";
 
         // Repeat for each dish
