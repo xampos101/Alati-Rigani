@@ -1,10 +1,6 @@
-/* responsive.css */
-
-/* Γενικές ρυθμίσεις για κινητά */
 body {
     font-size: 20px;
     line-height: 1.5;
-    text-align: center; /* Εξασφαλίζει την κεντραρισμένη στοίχιση για το σώμα */
 }
 
 /* Μέχρι 1200px */
@@ -55,16 +51,11 @@ body {
     .single-menu {
         flex-direction: column;
         align-items: center;
-        text-align: center; /* Εξασφαλίζει την κεντραρισμένη στοίχιση */
-        max-width: 90%; /* Περιορίζει το πλάτος για καλύτερη στοίχιση */
+        text-align: center;
     }
 
     .single-menu img {
         margin-bottom: 10px;
-    }
-
-    .menu-content {
-        text-align: center; /* Εξασφαλίζει την κεντραρισμένη στοίχιση */
     }
 
     .menu-content h5 {
@@ -73,7 +64,6 @@ body {
 
     .menu-content p {
         font-size: 12px;
-        word-wrap: break-word; /* Εξασφαλίζει ότι το κείμενο θα τυλίγεται σωστά */
     }
 }
 
@@ -101,21 +91,11 @@ body {
         height: 50px;
     }
 
-    .single-menu {
-        text-align: center; /* Εξασφαλίζει την κεντραρισμένη στοίχιση */
-        max-width: 90%; /* Περιορίζει το πλάτος για καλύτερη στοίχιση */
-    }
-
-    .menu-content {
-        text-align: center; /* Εξασφαλίζει την κεντραρισμένη στοίχιση */
-    }
-
     .menu-content h5 {
         font-size: 12px;
     }
 
     .menu-content p {
         font-size: 10px;
-        word-wrap: break-word; /* Εξασφαλίζει ότι το κείμενο θα τυλίγεται σωστά */
     }
 }
