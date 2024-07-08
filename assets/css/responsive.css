@@ -4,6 +4,7 @@
 body {
     font-size: 20px;
     line-height: 1.5;
+    text-align: center; /* Εξασφαλίζει την κεντραρισμένη στοίχιση για το σώμα */
 }
 
 /* Μέχρι 1200px */
@@ -55,6 +56,7 @@ body {
         flex-direction: column;
         align-items: center;
         text-align: center; /* Εξασφαλίζει την κεντραρισμένη στοίχιση */
+        max-width: 90%; /* Περιορίζει το πλάτος για καλύτερη στοίχιση */
     }
 
     .single-menu img {
@@ -71,6 +73,7 @@ body {
 
     .menu-content p {
         font-size: 12px;
+        word-wrap: break-word; /* Εξασφαλίζει ότι το κείμενο θα τυλίγεται σωστά */
     }
 }
 
@@ -100,6 +103,7 @@ body {
 
     .single-menu {
         text-align: center; /* Εξασφαλίζει την κεντραρισμένη στοίχιση */
+        max-width: 90%; /* Περιορίζει το πλάτος για καλύτερη στοίχιση */
     }
 
     .menu-content {
@@ -112,5 +116,6 @@ body {
 
     .menu-content p {
         font-size: 10px;
+        word-wrap: break-word; /* Εξασφαλίζει ότι το κείμενο θα τυλίγεται σωστά */
     }
 }
